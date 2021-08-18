@@ -1,3 +1,3 @@
-module go.haiyiyun.org/mongodb
+module github.com/haiyiyun/mongodb
 
 go 1.16

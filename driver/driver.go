@@ -1,7 +1,7 @@
 package driver
 
 import (
-	"go.haiyiyun.org/mongodb"
+	"github.com/haiyiyun/mongodb"
 	"go.mongodb.org/mongo-driver/bson"
 )
 

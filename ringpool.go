@@ -5,7 +5,7 @@ import (
 	"context"
 	"sync"
 
-	"go.haiyiyun.org/log"
+	"github.com/haiyiyun/log"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 

@@ -3,7 +3,7 @@ package mongodb
 import (
 	"context"
 
-	"go.haiyiyun.org/log"
+	"github.com/haiyiyun/log"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
