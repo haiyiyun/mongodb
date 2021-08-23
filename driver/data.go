@@ -29,6 +29,30 @@ func (d *Driver) DataPull(data bson.D) bson.D {
 	}
 }
 
+func (d *Driver) DataPullAll(data bson.D) bson.D {
+	return bson.D{
+		{"$pullAll", data},
+	}
+}
+
+func (d *Driver) DataPush(data bson.D) bson.D {
+	return bson.D{
+		{"$push", data},
+	}
+}
+
+func (d *Driver) DataPop(data bson.D) bson.D {
+	return bson.D{
+		{"$pop", data},
+	}
+}
+
+func (d *Driver) DataEach(data bson.D) bson.D {
+	return bson.D{
+		{"$each", data},
+	}
+}
+
 func (d *Driver) DataInc(data bson.D) bson.D {
 	return bson.D{
 		{"$inc", data},
