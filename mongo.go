@@ -50,6 +50,7 @@ func (m *Mongo) Col(col bson.M) *mongo.Collection {
 		}
 	}
 
+	log.Fatal("First you must use schema of collection to InitCollection then can call Col!")
 	return nil
 }
 
