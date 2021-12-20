@@ -67,6 +67,10 @@ func (db *Database) Push(ctx context.Context, filter, pushFilters bson.D, opts .
 	return db.UpdateOne(ctx, filter, db.DataPush(pushFilters), opts...)
 }
 
+func (db *Database) Inc(ctx context.Context, filter, incFilters bson.D, opts ...*options.UpdateOptions) (*mongo.UpdateResult, error) {
+	return db.UpdateOne(ctx, filter, db.DataInc(incFilters), opts...)
+}
+
 func (db *Database) Create(ctx context.Context, m interface{}, opts ...*options.InsertOneOptions) (*mongo.InsertOneResult, error) {
 	mm := help.NewStruct(m).StructToMap()
 
