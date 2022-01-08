@@ -4,8 +4,8 @@ go 1.17
 
 require (
 	github.com/haiyiyun/log v0.0.0-20211115100502-be01af77681c
-	github.com/haiyiyun/utils v0.0.0-20211217063659-e1cdf594e95c
-	go.mongodb.org/mongo-driver v1.8.1
+	github.com/haiyiyun/utils v0.0.0-20220108040900-3f7aeeafa0fe
+	go.mongodb.org/mongo-driver v1.8.2
 )
 
 require (
