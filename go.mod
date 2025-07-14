@@ -1,18 +1,16 @@
 module github.com/haiyiyun/mongodb
 
-go 1.23.0
-
-toolchain go1.23.11
+go 1.24.5
 
 require (
-	github.com/haiyiyun/log v0.0.0-20250713182740-69ca3d5834ba
-	github.com/haiyiyun/utils v0.0.0-20250713200210-afaaf8530fdf
+	github.com/haiyiyun/log v0.0.0-20250714021242-243291bf2f88
+	github.com/haiyiyun/utils v0.0.0-20250714020932-661b878827da
 	go.mongodb.org/mongo-driver v1.17.4
 )
 
 require (
 	github.com/golang/snappy v0.0.4 // indirect
-	github.com/haiyiyun/uuid v0.0.0-20211115101403-e9c2d7112f99 // indirect
+	github.com/haiyiyun/uuid v0.0.0-20250713200226-2d57fe9fb802 // indirect
 	github.com/klauspost/compress v1.16.7 // indirect
 	github.com/montanaflynn/stats v0.7.1 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
